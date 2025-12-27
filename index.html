@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">We School For Kids</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#admission">Admission</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+           <main>
+                <div class="main-content">
+                    <h1>Best Way To Fund Your Study abroad</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button>Get Started</button>
+                </div>
+                <div class="main-img">
+                    <img src="Lab-18/hero.png" alt="Main Image">
+            </main>
+    </header>
+
+    <section class="admission" id="admission">
+        <div class="admission-content">
+            <h2>Admission Open</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusamus temporibus natus, molestiae laboriosam facilis rerum in autem nostrum nisi quisquam inventore praesentium. Quia fugit possimus suscipit in, neque laboriosam!</p>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="admission-img">
+            <img src="Lab-18/admission.png" alt="Admission Image">
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <input type="text" id="name" placeholder="Name" required minlength="3">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="tel" id="phone" placeholder="Phone Number">
+                <textarea id="message" placeholder="Message" required minlength="10"></textarea>
+                
+                <button onclick="validateForm()">SEND</button>
+                <p id="error" style="color:red; font-size:14px;"></p>
+            </div>
+            <div class="contact-image">
+                <img src="Lab-18/students.jpg" alt="Kids Reading">
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
